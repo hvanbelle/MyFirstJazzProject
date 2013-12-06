@@ -29,5 +29,10 @@ app.get('/', function (req, res) {
   { title : 'Home' }
   )
 })
+app.get('/young_monk', function (req, res) {
+  res.render('youg_monk',
+  { title : 'YounMonk' }
+  )
+})
 
 app.listen(3000)
