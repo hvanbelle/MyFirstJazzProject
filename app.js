@@ -30,7 +30,7 @@ app.get('/', function (req, res) {
   )
 })
 app.get('/young_monk', function (req, res) {
-  res.render('youg_monk',
+  res.render('young_monk',
   { title : 'YounMonk' }
   )
 })
