@@ -31,7 +31,7 @@ app.get('/', function (req, res) {
 })
 app.get('/young_monk', function (req, res) {
   res.render('young_monk',
-  { title : 'YounMonk' }
+  { title : 'YoungMonk' }
   )
 })
 
