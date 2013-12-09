@@ -30,7 +30,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/jokes/young_monk', function (req, res) {
-  res.render('young_monk',
+  res.render('jokes/young_monk',
   { title : 'YoungMonk' }
   );
 });
