@@ -31,13 +31,19 @@ app.get('/', function (req, res) {
 
 app.get('/jokes/young_monk', function (req, res) {
   res.render('jokes/young_monk',
-  { title : 'YoungMonk' }
+  { title : 'Young Monk' }
   );
 });
 
 app.get('/jokes/index', function (req, res) {
   res.render('jokes/index',
-  { title : 'JokesIndex' }
+  { title : 'Jokes Index' }
+  );
+});
+
+app.get('/jokes/is_hell_exothermic_or_endothermic', function (req, res) {
+  res.render('jokes/is_hell_exothermic_or_endothermic',
+  { title : 'Is hell exothermic or endothermic' }
   );
 });
 
