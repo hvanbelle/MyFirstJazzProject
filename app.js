@@ -35,4 +35,10 @@ app.get('/jokes/young_monk', function (req, res) {
   );
 });
 
+app.get('/jokes/index', function (req, res) {
+  res.render('jokes/index',
+  { title : 'JokesIndex' }
+  );
+});
+
 app.listen(3000);
