@@ -29,7 +29,7 @@ app.get('/', function (req, res) {
   { title : 'Home' }
   )
 })
-app.get('/young_monk', function (req, res) {
+app.get('/jokes/young_monk', function (req, res) {
   res.render('young_monk',
   { title : 'YoungMonk' }
   )
