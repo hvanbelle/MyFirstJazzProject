@@ -17,4 +17,5 @@ Start server app with:
 Connect to:
 
    http://localhost:3000/
+
    http://localhost:3000/jokes/young_monk
